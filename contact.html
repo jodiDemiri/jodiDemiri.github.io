@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    
+    <div class="menu">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="top">
+      
+    </div>
+      <h2 class="centered">
+        Contact Us for A Service
+      </h2>
+</header>
+<main>
+  <section class="centered">
+    <p>
+      <strong>Note:</strong> We do not recieve orders <em>the day before</em>. Orders must be places <strong>at least a week in advance</strong>.
+    </p> 
+  </section>
+  <section>
+    <form action="" class="centered">
+      <fieldset class="personal">
+        <legend class="">Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="E-mail" required>
+
+        <label for="phone">Telephone Number:</label>
+        <input type="tel" id="phone" placeholder="(123)456-789">
+
+        <label for="date">Date of Event:</label>
+        <input type="date" name="" id="date" max="2030-01-01" min="2020-01-01">
+      </fieldset>
+
+      <fieldset>
+        <legend>Event Description</legend>
+        <div class="options">
+          <label for="birthday">Birthday</label>
+          <input type="radio" id="birthday" value="birthday" name="event">
+
+          <label for="ann">Anniversary</label>
+          <input type="radio" id="ann" value="Anniversary" name="event">
+
+          <label for="funeral">Funeral</label>
+          <input type="radio" id="funeral" value="Funeral" name="event">
+        </div>
+        <div class="options">
+          <label for="wed">Wedding</label>
+          <input type="radio" id="wed" value="Wedding" name="event">
+
+          <label for="chris">Christening</label>
+          <input type="radio" id="chris" value="Christening" name="event">
+
+          <label for="other">Other</label>
+          <input type="radio" id="other" value="Other" name="event">
+        </div>
+
+        <label for="description">Menu:</label>
+        <textarea name="description" id="description" rows="15" cols="15"></textarea>
+      </fieldset>
+      <div class="send">
+      <input type="submit" value="Submit" class="button c-white">
+
+    </form>
+  </section>
+</main>  
+</body>
+</html>
