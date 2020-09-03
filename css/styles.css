@@ -24,16 +24,14 @@ body
   height: 40rem;
   background-position: center center;
   background-size: cover;
-  display: flex;
-  align-content: center;
+  margin-top: 0;
  
 }
 h1
 {
- font-size: 3rem;
- font-weight: 800;
- margin: 25rem 0 0 15rem;
+  margin: 0 0 0 0;
 }
+
 .centered
 {
   max-width: 60rem;
@@ -69,16 +67,7 @@ table
   display: block;
   height: 2rem;
 }
-{
-  border: none;
-  background-color: #ede7e3;
-  border-radius: 0.25rem;
-  width: 100%;
-  display: block;
-  font-size: 1rem;
-  
- 
-}
+
 input:not([type="submit"]),
 textarea
 {
